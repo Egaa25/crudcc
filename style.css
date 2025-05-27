@@ -1,0 +1,77 @@
+/* Umum */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  padding: 30px;
+  color: #333;
+}
+
+/* Judul */
+h2 {
+  color: #343a40;
+  margin-bottom: 20px;
+}
+
+/* Link Tambah */
+a[href*="create"] {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 14px;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+a[href*="create"]:hover {
+  background-color: #0056b3;
+}
+
+/* Tabel */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th,
+td {
+  padding: 14px 18px;
+  border-bottom: 1px solid #e9ecef;
+  text-align: left;
+}
+
+th {
+  background-color: #343a40;
+  color: #fff;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Tombol aksi */
+td a {
+  padding: 6px 10px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+td a[href*="edit"] {
+  background-color: #28a745;
+}
+td a[href*="edit"]:hover {
+  background-color: #218838;
+}
+
+td a[href*="delete"] {
+  background-color: #dc3545;
+}
+td a[href*="delete"]:hover {
+  background-color: #c82333;
+}
